@@ -1,0 +1,15 @@
+table{
+border: 5px firebrick 
+}
+td:hover{
+    background-color: goldenrod;
+    color: maroon;
+}
+tr,th {
+background-color: blue;
+color: hotpink;
+}
+tr,td{
+background-color: mediumaquamarine;
+color: darkslategray;
+}

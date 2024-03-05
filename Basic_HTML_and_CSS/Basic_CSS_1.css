@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    animation: normal;
+
+}
+h3 {
+    text-align: center;
+    color: darkslateblue;
+    
+
+}
+p {
+    text-align: center;
+    color: indianred;
+    font-variant: small-caps;
+    font-family: monospace;
+
+}
+div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}

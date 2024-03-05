@@ -1,0 +1,9 @@
+p {
+    background: slategray;
+    color: rebeccapurple;
+    font-size: x-large;
+    text-align: justify;
+    font-style: italic;
+    font: small-caps;
+    text-shadow: 5px 3px cyan;
+}
