@@ -3,13 +3,17 @@
     <head>
         <title>Become a Helldiver!</title>
         <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="./Photo_Style.css">
+        <link rel="stylesheet" href="./Menu_Style.css">   -->
+        <link rel="stylesheet" href="./shared.css">
+        <link rel="stylesheet" href="./animations.css">
     </head>
     <body>
 <!--NAV-->
-    <div>
-        <div>
+    <div class="wrap">
+        <div class="menu-container">
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="#home" id="link">HOME</a></li>
                     <li><a href="#about us" id="link"> ABOUT US</a></li>
                     <li><a href="#photos" id="link">PHOTOS</a></li>
@@ -20,16 +24,16 @@
     </div>
 <!--END NAV-->
 <!--HEADER-->
-        <header>
+        <header class="head">
             <h1>Join the fight for Democracy!</h1>
             <h3>Become A Helldiver!</h3>
         </header>
 <!--END OF HEADER-->        
 <!--HOME-->
     <div id="home">
-        <div>
-            <div>
-                <span>Join the fight for Democracy!</span>
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">Join the fight for Democracy!</span>
             </div>
         </div>
     </div>
@@ -53,100 +57,107 @@
                 
                 So, enlist in the Helldivers, not just for the thrill of the game, but to prepare for any real-world challenges that may come. Because the skills you hone here—leadership, teamwork, quick thinking—can make all the difference, both in-game and out. The fight for Super Earth is more than a game; it’s a training ground for heroes. Are you ready to join?</p>
 <!--END OF ABOUT US-->
+<!--GALLERY-->
+<section id="gallery">
+    <div class="container">
+        <h1>Gallery</h1>
+        <div class="flex-container">
+            
         <!--PHOTO 1-->
-            <div id="photos">
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_1.jpg" alt="The image file is courpted">
-                    <div>
-                         Click to Enlarge
+                    <div class="photo-overlay">
+                         <h3 class="white-head">Click to Enlarge</h3>
+                         <p>...</p>
                     </div>
                 </div>
             </div>
         <!--END OF PHOTO 1-->
 
         <!--PHOTO 2-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thunbnail_2.avif" alt="The image file is courpted">
-                    <div>
-                         Click to Enlarge
+                    <div class="photo-overlay">
+                        <h3 class="white-head">Click to Enlarge</h3>
                     </div>
                 </div>
             </div>
         <!--END OF PHOTO 2-->
           
         <!--PHOTO 3-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_3.jpg" alt="The image file is courpted">
-                    <div>
-                        Click to Enlarge
+                    <div class="photo-overlay">
+                        <h3 class="white-head">Click to Enlarge</h3>
                     </div>
                 </div>
             </div>
         <!--END OF PHOTO 3-->
 
         <!--PHOTO 4-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_4.jfif" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
         <!--END OF PHOTO 4-->
 
         <!--PHOTO 5-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_5.jpg" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
         <!--END OF PHOTO 5-->
 
         <!--PHOTO 6-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_6.webp" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                           <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
         <!--END OF PHOTO 6-->
 
         <!--PHOTO 7-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_7.webp" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
         <!--END OF PHOTO 7-->
 
         <!--PHOTOS 8-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_8.jpg" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
         <!--END OF PHOTO 8-->
 
         <!--PHOTO 9-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="One Page Media/Thumbnail_9.webp" alt="The image file is courpted">
-                        <div>
-                            Click to Enlarge
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
                         </div>
                 </div>
             </div>
@@ -160,16 +171,17 @@
 <!--JOIN US-->
 <section>
     <div id="contact">
-        <div>
-            <h1>Join the Fight!</h1>
-                <div>
+        <div class="container">
+            <div class="heading-padding">
+            <h1 class="heading-padding">Join the Fight!</h1>
+                <div class="join">
                     <h2><span>Protect Democracy!</span>
                         <br />Join a Squad NOW!
                     </h2>
-                        <p>
+                        <p class="join-text">
                             Please give us you info to join now
                         </p>
-                            <div>
+                            <div class="form-join">
                                 <form action="" method="post">
                                     <input class="join" type="text" value="First Name/Nickname"><br>
                                     <input class="join" type="text" value="GamerTag"><br>
@@ -181,19 +193,20 @@
                                         <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                         </div>
-                                    <div>
+                                    <div class="submit">
                                         <input type="submit" value="Join Now">
                                     </div>
                                 </form>
-                            </div>     
-                </div>
+                            </div>          
+                </div> 
+            </div>                
         </div>
     </div>
 </section>
 <!--END JOIN US-->
 
 <!--FOOTER-->
-<div>
+<div id="footer">
     www.protectsuperearthnow.dive &nbsp;|&nbsp; &copy; 2024
 </div>
 <!--END FOOTER-->
