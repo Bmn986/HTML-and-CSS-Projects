@@ -1,2 +1,3 @@
 # HTML and CSS Prolects
- This repository is for all my projects from my HTML and CSS Course
+
+This repository is a display for the websites i created useing HTML and CSS
