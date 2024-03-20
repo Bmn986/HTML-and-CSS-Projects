@@ -7,15 +7,15 @@ body {
 
 /* Heading 1 elements */
 h1 {
-    text-transform: uppercase;
+    text-transform:uppercase;
     /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* Sets the font family of all h1 headings */
     text-align: center;
     /* Centering all h1 elements */
     margin-top: 3%;
     /* Adds a small margin above h1 elements */
-    color: #1a1a1a;
+    color:black;
 }
 
 /* Heading 1 element hover effect */
@@ -36,7 +36,7 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     text-align: justify;
     /* Justify text within paragraph elements */
     letter-spacing: 1px;
@@ -122,7 +122,7 @@ img:hover {
 footer {
     padding: 2%;
     /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: white;
+    background-color:cadetblue;
 }
 
 /***** END OF GENERAL STYLING *****/
@@ -131,7 +131,7 @@ footer {
 .Navbar {
     overflow: hidden;
     /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black;
+    background-color:cadetblue;
     /* This colors the navbar black */
     position: fixed;
     /* This keeps the navbar at the top of the screen as we scroll */
@@ -212,7 +212,7 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4;
+    background-color:darkcyan;
     /* Defines the background color that will display when you hover over the link */
     color: black;
     /* This defines the font color that will display when navbar a elements are hovered over */
@@ -223,7 +223,7 @@ footer {
 /* Navbar home button */
 .Navbar a.active {
     /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color:cadetblue;
 }
 
 /***** END OF NAVBAR STYLING *****/
@@ -298,7 +298,7 @@ footer {
     /* This ensures there is space between the top of the column and our headings */
     height: 400px;
     /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2;
+    background-color:cadetblue;
     /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -315,7 +315,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color:cadetblue;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
@@ -409,5 +409,3 @@ form {
     /* Adds padding to the contact form */
     font-family: "Trebuchet MS", Optima;
 }
-
-/***** END OF CONTACT FORM STYLING *****/
